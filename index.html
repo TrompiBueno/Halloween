@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halloween 2025 - Death Pass - 3ºA/C Bilingual Section</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&family=IM+Fell+English+SC&family=Nosifer&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <style>
+    :root {
+      --blood-orange: #fe5000;
+      --pumpkin: #ff7518;
+      --ghostly-white: #f0f0f0;
+      --black: #0a0a0a;
+    }
+
+    body {
+      font-family: 'IM Fell English SC', serif;
+      background: radial-gradient(circle at center, #0b020a 0%, #080008 80%);
+      color: var(--ghostly-white);
+      overflow-x: hidden;
+      margin: 0;
+    }
+
+    #particles-js, .fog, .flying-bats {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    .header-logo {
+      font-family: 'Nosifer', cursive;
+      color: var(--blood-orange);
+      text-shadow: 2px 2px 8px rgba(255, 0, 0, 0.6);
+      animation: flicker 2s infinite;
+    }
+
+    @keyframes flicker {
+      0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% { opacity: 1; }
+      20%, 24%, 55% { opacity: 0.4; }
+    }
+
+    h2.section-title {
+      font-family: 'Creepster', cursive;
+      color: var(--pumpkin);
+      text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+    }
+
+    .info-card {
+      background: linear-gradient(135deg, rgba(50, 0, 50, 0.6), rgba(0, 0, 0, 0.8));
+      border-radius: 12px;
+      padding: 2rem;
+      transition: transform .3s, box-shadow .3s;
+      box-shadow: 0 0 15px rgba(255, 100, 0, 0.2);
+    }
+    .info-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 0 30px rgba(255, 80, 0, 0.4);
+    }
+
+    ul li::marker { content: "🎃 "; }
+    .fog { opacity: .25; animation: fogMove 60s linear infinite; }
+    @keyframes fogMove { from { background-position: 0 0; } to { background-position: 1920px 0; } }
+  </style>
+</head>
+
+<body>
+  <div id="particles-js"></div>
+  <div class="fog"></div>
+
+  <header class="fixed w-full top-0 bg-black bg-opacity-70 backdrop-blur-md z-50">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="header-logo text-2xl">Halloween 2025</h1>
+      <nav class="hidden md:flex space-x-6 text-orange-500">
+      </nav>
+    </div>
+  </header>
+
+  <section class="min-h-screen flex items-center justify-center text-center px-4 bg-gradient-to-b from-black to-purple-900 pt-32 pb-16">
+    <div>
+      <h1 class="header-logo text-6xl md:text-7xl mb-6">Death Pass</h1>
+      <p class="text-gray-300 text-xl max-w-2xl mx-auto">School project made with recycled materials. A scary door, a sustainable message.</p>
+    </div>
+  </section>
+  
+<div class="max-w-md mx-auto mb-10 p-6 rounded-2xl bg-black text-center shadow-lg">
+  <h3 class="text-white text-2xl mb-4 font-creepster">🖌️ Our sketch</h3>
+  <img src="https://i.imgur.com/6IpfjK7.jpg" alt="Our sketch" class="rounded-lg shadow-md mx-auto w-64 border-2 border-orange-500">
+</div>
+
+
+
+
+  <section id="proyecto" class="py-20 bg-gradient-to-b from-purple-900 to-black px-6">
+    <div class="container mx-auto text-center">
+      <h2 class="section-title text-4xl mb-12">🎟️ “Death Pass”</h2>
+      <div class="swiper mySwiper max-w-3xl mx-auto mb-8">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="WhatsApp%20Image%202025-10-23%20at%2017.57.32.jpeg" alt="Puerta Halloween" class="rounded-lg shadow-lg"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <p class="max-w-3xl mx-auto text-gray-300 text-justify leading-relaxed">
+This door was designed by the 3rd A/C Bilingual Section class for the Halloween Door Design Competition, run by the English department, with the goal of creating a Halloween decoration for the school.
+It depicts an old, abandoned ticket booth where a creepy clown is selling tickets to a show.
+We tried to use as many recycled items as possible, from cardboard from old boxes to unusable gloves.
+      </p>
+    </div>
+  </section>
+
+  <section id="materiales" class="py-20 bg-gradient-to-b from-black to-purple-900 px-6">
+    <div class="container mx-auto text-center">
+      <h2 class="section-title text-4xl mb-8">Materiales reciclados utilizados</h2>
+      <div class="info-card max-w-3xl mx-auto">
+        <ul class="text-left text-gray-200 leading-loose">
+	<li>Thick cardboard boxes for the box office and bars.</li>
+	<li>Reused paper and cardboard for the tickets, the clown, and other details like the lights.</li>
+	<li>Latex cleaning gloves.</li>
+	<li>Acrylic paint we had at home.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  <p style="text-align: center;">In short, we have bought the minimum</p>
+
+
+  <section id="significado" class="py-20 bg-gradient-to-b from-purple-900 to-black px-6">
+    <div class="container mx-auto text-center">
+      <h2 class="section-title text-4xl mb-8">Diseño</h2>
+      <div class="info-card max-w-3xl mx-auto text-gray-300 text-justify leading-relaxed">
+<p>
+The clown has a special meaning.
+The cracks and bars show the passage of time, and the gloves and knife suggest danger.
+</p>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="sostenible" class="py-20 bg-gradient-to-b from-black to-purple-900 px-6">
+    <div class="container mx-auto text-center">
+      <h2 class="section-title text-4xl mb-8">🌍 A sustainable project 🌍</h2>
+      <div class="info-card max-w-3xl mx-auto text-gray-300 text-justify leading-relaxed">
+        <p>
+All the work was done with recycled materials as much as possible. Our two goals were to make it look good and to help the environment (and also make a profit, if possible).
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-10 text-center bg-black">
+    <p class="text-gray-400 text-sm">2025 Halloween Contest - 3ºA/C Bilingual Section.</p>
+    <p class="text-orange-600 mt-2">
+      Organized by the English Department of IES San Fernando.
+    </p>
+  </footer>
+
+  <script>
+    // Partículas
+    particlesJS('particles-js', {
+      particles: {
+        number: { value: 60 },
+        color: { value: ['#fe5000', '#3a015c'] },
+        move: { speed: 1 },
+        line_linked: { enable: false }
+      },
+      interactivity: {
+        events: { onhover: { enable: true, mode: 'bubble' } },
+        modes: { bubble: { distance: 200, size: 6, duration: 2 } }
+      }
+    });
+
+    // Swiper
+    new Swiper('.mySwiper', {
+      loop: true,
+      autoplay: { delay: 3500 },
+      pagination: { el: '.swiper-pagination', clickable: true }
+    });
+
+    // Murciélagos
+    const bats = document.createElement('div');
+    bats.className = 'flying-bats';
+    document.body.appendChild(bats);
+    for (let i = 0; i < 10; i++) {
+      const b = document.createElement('div');
+      b.className = 'bat';
+      b.style.backgroundImage = "url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 576 512%22><path fill=%22%23fe5000%22 d=%22M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32z%22/></svg>')";
+      b.style.position = 'absolute';
+      b.style.width = '30px';
+      b.style.height = '30px';
+      b.style.top = Math.random() * 100 + 'vh';
+      b.style.animation = `fly${i} linear infinite`;
+      const dur = 10 + Math.random() * 10;
+      const style = document.createElement('style');
+      style.textContent = `@keyframes fly${i} { from { transform: translateX(100vw); } to { transform: translateX(-50px); } }`;
+      document.head.appendChild(style);
+      b.style.animationDuration = dur + 's';
+      bats.appendChild(b);
+    }
+  </script>
+</body>
+</html>
